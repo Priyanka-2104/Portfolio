@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/Priyanka-Portfolio/static/css/main.ad207a68.css",
-    "main.js": "/Priyanka-Portfolio/static/js/main.d52ca53d.js",
-    "static/js/453.b05d8aa5.chunk.js": "/Priyanka-Portfolio/static/js/453.b05d8aa5.chunk.js",
-    "static/media/fact-opinion.png": "/Priyanka-Portfolio/static/media/fact-opinion.55e7c3af61bcf6a85f73.png",
-    "static/media/calculator.png": "/Priyanka-Portfolio/static/media/calculator.393fc80f18b0d9dbb2a1.png",
-    "static/media/churn.png": "/Priyanka-Portfolio/static/media/churn.4ec040896b16bf129a60.png",
-    "static/media/bg-dark.png": "/Priyanka-Portfolio/static/media/bg-dark.6cd8e681d8903f29c377.png",
-    "static/media/contact-girl.png": "/Priyanka-Portfolio/static/media/contact-girl.b7a88b55a793b6fa16b2.png",
-    "static/media/bg-light.png": "/Priyanka-Portfolio/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/priyanka.png": "/Priyanka-Portfolio/static/media/priyanka.bd559946088461337b26.png",
-    "static/media/Priyanka-resume.pdf": "/Priyanka-Portfolio/static/media/Priyanka-resume.41faccc9e958cf4b82c9.pdf",
-    "static/media/satellite.png": "/Priyanka-Portfolio/static/media/satellite.439532f30f5eea806199.png",
-    "index.html": "/Priyanka-Portfolio/index.html",
-    "main.ad207a68.css.map": "/Priyanka-Portfolio/static/css/main.ad207a68.css.map",
-    "main.d52ca53d.js.map": "/Priyanka-Portfolio/static/js/main.d52ca53d.js.map",
-    "453.b05d8aa5.chunk.js.map": "/Priyanka-Portfolio/static/js/453.b05d8aa5.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.d8a8088f.css",
+    "main.js": "/Portfolio/static/js/main.ecfb6c55.js",
+    "static/js/453.b05d8aa5.chunk.js": "/Portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/fact-opinion.png": "/Portfolio/static/media/fact-opinion.55e7c3af61bcf6a85f73.png",
+    "static/media/calculator.png": "/Portfolio/static/media/calculator.393fc80f18b0d9dbb2a1.png",
+    "static/media/churn.png": "/Portfolio/static/media/churn.4ec040896b16bf129a60.png",
+    "static/media/bg-dark.png": "/Portfolio/static/media/bg-dark.6cd8e681d8903f29c377.png",
+    "static/media/contact-girl.png": "/Portfolio/static/media/contact-girl.b7a88b55a793b6fa16b2.png",
+    "static/media/bg-light.png": "/Portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/priyanka.png": "/Portfolio/static/media/priyanka.bd559946088461337b26.png",
+    "static/media/Priyanka-resume.pdf": "/Portfolio/static/media/Priyanka-resume.41faccc9e958cf4b82c9.pdf",
+    "static/media/satellite.png": "/Portfolio/static/media/satellite.439532f30f5eea806199.png",
+    "index.html": "/Portfolio/index.html",
+    "main.d8a8088f.css.map": "/Portfolio/static/css/main.d8a8088f.css.map",
+    "main.ecfb6c55.js.map": "/Portfolio/static/js/main.ecfb6c55.js.map",
+    "453.b05d8aa5.chunk.js.map": "/Portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad207a68.css",
-    "static/js/main.d52ca53d.js"
+    "static/css/main.d8a8088f.css",
+    "static/js/main.ecfb6c55.js"
   ]
 }
