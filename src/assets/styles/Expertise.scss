@@ -1,0 +1,131 @@
+.skills-container {
+    padding: 100px 8%;
+}
+
+.skills-container>h1 {
+    text-align: center;
+    font-size: 3.5em;
+    margin-bottom: 70px;
+    color: white;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.skill {
+    padding: 35px 30px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease,
+        border-color 0.3s ease;
+
+    svg {
+        font-size: 3em;
+        margin-bottom: 15px;
+    }
+
+    h3 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    p {
+        line-height: 1.7;
+        font-size: 1em;
+        margin-bottom: 25px;
+        color: white;
+    }
+}
+
+/* DATA ANALYTICS */
+.skill:nth-child(1) {
+    svg {
+        color: #6dd5ed;
+        filter: drop-shadow(0 0 8px rgba(109, 213, 237, 0.35));
+    }
+
+    &:hover {
+        border-color: rgba(109, 213, 237, 0.5);
+        box-shadow: 0 10px 30px rgba(109, 213, 237, 0.12);
+    }
+}
+
+/* PROGRAMMING & MACHINE LEARNING */
+.skill:nth-child(2) {
+    svg {
+        color: #f58bb5;
+        filter: drop-shadow(0 0 8px rgba(245, 139, 181, 0.35));
+    }
+
+    &:hover {
+        border-color: rgba(245, 139, 181, 0.5);
+        box-shadow: 0 10px 30px rgba(245, 139, 181, 0.12);
+    }
+}
+
+/* TOOLS & PLATFORMS */
+.skill:nth-child(3) {
+    svg {
+        color: #f4c95d;
+        filter: drop-shadow(0 0 8px rgba(244, 201, 93, 0.35));
+    }
+
+    &:hover {
+        border-color: rgba(244, 201, 93, 0.5);
+        box-shadow: 0 10px 30px rgba(244, 201, 93, 0.12);
+    }
+}
+
+/* TECH STACK */
+.flex-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.chip-title {
+    width: 100%;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: 600;
+}
+
+.chip {
+    background-color: rgba(153, 102, 204, 0.18) !important;
+    color: white !important;
+    border: 1px solid rgba(153, 102, 204, 0.45);
+    font-size: 0.8rem !important;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1000px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skill {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .skills-container {
+        padding: 70px 5%;
+    }
+
+    .skills-container>h1 {
+        font-size: 2.7em;
+        margin-bottom: 45px;
+    }
+
+    .skill {
+        padding: 28px 22px;
+    }
+}

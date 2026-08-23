@@ -1,0 +1,95 @@
+.moving-contact {
+    width: 100%;
+    overflow: hidden;
+    padding: 35px 0;
+    background: transparent;
+}
+
+.moving-band {
+    width: 108%;
+    margin-left: -4%;
+    padding: 18px 0;
+    overflow: hidden;
+
+    background: #9966cc;
+
+    transform: rotate(-2deg);
+
+    box-shadow: 0 8px 20px rgba(153, 102, 204, 0.18);
+}
+
+.moving-track {
+    display: flex;
+    width: max-content;
+    animation: movingBand 28s linear infinite;
+}
+
+.moving-content {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+
+    span,
+    a {
+        font-family: "Georgia", serif;
+        font-size: 21px;
+        font-style: italic;
+        font-weight: 600;
+        margin-right: 45px;
+        color: #17131c;
+    }
+
+    a {
+        text-decoration: none;
+        transition: opacity 0.3s ease;
+    }
+
+    a:hover {
+        opacity: 0.65;
+        text-decoration: underline;
+    }
+
+    strong {
+        font-family: Arial, sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        margin-left: 18px;
+        color: #17131c;
+    }
+}
+
+@keyframes movingBand {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .moving-contact {
+        padding: 25px 0;
+    }
+
+    .moving-band {
+        padding: 15px 0;
+        transform: rotate(-1.5deg);
+    }
+
+    .moving-content {
+
+        span,
+        a {
+            font-size: 17px;
+            margin-right: 30px;
+        }
+
+        strong {
+            font-size: 23px;
+            margin-left: 12px;
+        }
+    }
+}
