@@ -16,7 +16,7 @@ function Education() {
                     <h3>Bachelor of Technology in Computer Science</h3>
 
                     <div className="education-score">
-                        CGPA: <strong>7.15</strong>
+                        CGPA: <strong>7.16</strong>
                     </div>
                 </div>
 
